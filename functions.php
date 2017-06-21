@@ -62,7 +62,7 @@ function artcraft_scripts() {
      * 2) путь к файлу
      */
     // для локальных стилей
-	wp_enqueue_style( 'artcraft-style', get_stylesheet_uri() . '/css/style.css' );
+	wp_enqueue_style( 'artcraft-style', get_template_directory_uri() . '/css/style.css' );
     // для внешних стилей
 	//wp_enqueue_style( 'artcraft-style', 'http://domain.com/style.css' );
     /*
